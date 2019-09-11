@@ -1,2 +1,3 @@
-# Commands
-Run haskell interpreter: `docker run --rm -it haskell:8 ghci`
+## Commands
+* Terminal with ghci: `docker run --rm -it -v $(pwd)/app:/app haskell:8 bash`
+  * Use `ctrl p + ctrl q` to exit
