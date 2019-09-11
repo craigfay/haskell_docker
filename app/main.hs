@@ -7,3 +7,4 @@
 import Data.List
 import System.IO
 
+sumOfNums = sum [1..5]
