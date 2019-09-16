@@ -23,6 +23,7 @@
   * Use `ctrl p + ctrl q` to exit
 
 ### Inside ghci
+* See type declaration `:t <variable>`
 * Load module `:l <module>`
 * Run `:r`
 * Quit `:r`
