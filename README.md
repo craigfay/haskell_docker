@@ -1,4 +1,7 @@
-# Thoughts
+# About
+This repo is meant to serve as an exploration of workflow staples when using docker and haskell together. It will have been a success if I can identify a pleasant set of commands that encompass the majority of work that needs to be done, and a painless way to access common haskell tooling, such as package management.
+
+## Thoughts
 * Instead of running sequentially, we've been loading modules and accessing variables inside them.
 * Prefix operators vs Infix operators
 * use `(fromIntegral n)` and `(round n)` to cast between Integers and Floats
