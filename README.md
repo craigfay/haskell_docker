@@ -25,3 +25,8 @@
 ### Inside ghci
 * Load module `:l <module>`
 * Run `:r`
+* Quit `:r`
+
+### ghc
+* Compile `ghc --make <sourcefile.hs>`
+* Run compiled file `./<sourcefile>`
