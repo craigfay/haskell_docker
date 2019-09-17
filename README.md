@@ -20,7 +20,8 @@ This repo is meant to serve as an exploration of workflow staples when using doc
 * `foldr (*) <list>`
 * `[3^n | n <- [1..10]]` list comprehensions
 * `[[x * y | y <- [1..5]] | x <- [1..5]]`
-* `/=` is Haskell's inequality operator
+* `/=` is Haskell's inequality operator, while `not` is used generally for boolean inversion.
+* `if` statements are relatively uncommon in Haskell, maybe because of function "overrides".
 
 ## Commands
 * Terminal with ghci: `docker run --rm -it -v $(pwd)/app:/app haskell:8 bash`
