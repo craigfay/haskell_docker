@@ -22,6 +22,7 @@ This repo is meant to serve as an exploration of workflow staples when using doc
 * `[[x * y | y <- [1..5]] | x <- [1..5]]`
 * `/=` is Haskell's inequality operator, while `not` is used generally for boolean inversion.
 * `if` statements are relatively uncommon in Haskell, maybe because of function "overrides".
+* Tuples are the new Objects. Learn the `data` keyword
 
 ## Commands
 * Terminal with ghci: `docker run --rm -it -v $(pwd)/app:/app haskell:8 bash`
