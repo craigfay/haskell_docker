@@ -29,6 +29,7 @@ This repo is meant to serve as an exploration of workflow staples when using doc
 * Terminal with ghci: `docker run --rm -it -v $(pwd)/app:/app haskell:8 bash`
  * Use `exit` to exit
  * Use `ctrl p + ctrl q` if that doesn't work
+ * Use `runhaskell <filename>` to execute a haskell source file.
 
 ### Inside ghci
 * See type declaration `:t <variable>`
