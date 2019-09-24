@@ -1,9 +1,11 @@
 -- Guards let us check data against constraints
 
--- Type Declaration
-isOdd :: Int -> Bool
+-- Absolute value with guards
+absVal n
+  | n < 0 = 0 - n
+  | otherwise = n
 
--- Guard
+-- Odd checker with guards
 isOdd n
   | n `mod` 2 == 0 = False
   | otherwise = True
@@ -12,6 +14,7 @@ isOdd n
 isEven n = n `mod` 2 == 0
 
 -- The where clause can save us from repeating calculations
+-- Here we're combining guards with local definitions
 battingAvg hits atBats
  | avg <= 0.200 = "Bad"
  | avg <= 0.250 = "Okay"
