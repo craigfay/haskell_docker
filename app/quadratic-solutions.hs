@@ -1,4 +1,5 @@
 -- Calculate the number of real solutions to a quadratic equation
+-- The Quadratic Equation
 
 quadraticSolutions a b c
     | disc > 0 = 2
